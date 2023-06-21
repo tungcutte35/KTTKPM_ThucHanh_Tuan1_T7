@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextArea?>
@@ -9,7 +10,7 @@
 
 <AnchorPane prefHeight="403.0" prefWidth="546.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kttkpm_tuan1_t7.NhanBenhController">
     <children>
-        <AnchorPane layoutY="3.0" prefHeight="398.0" prefWidth="561.0">
+        <AnchorPane layoutX="6.0" layoutY="3.0" prefHeight="398.0" prefWidth="561.0">
             <children>
             <Label layoutX="194.0" layoutY="14.0" text="NHẬN BỆNH" textAlignment="CENTER" textFill="#111111">
                <font>
@@ -47,6 +48,11 @@
             <TextArea layoutX="177.0" layoutY="223.0" prefHeight="97.0" prefWidth="267.0" />
             <CheckBox layoutX="462.0" layoutY="118.0" mnemonicParsing="false" />
             <CheckBox layoutX="462.0" layoutY="151.0" mnemonicParsing="false" />
+            <Button layoutX="245.0" layoutY="336.0" mnemonicParsing="false" text="Lưu thông tin">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
             </children>
         </AnchorPane>
     </children>

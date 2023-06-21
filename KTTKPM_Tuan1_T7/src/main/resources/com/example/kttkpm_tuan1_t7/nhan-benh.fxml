@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="403.0" prefWidth="546.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kttkpm_tuan1_t7.NhanBenhController">
+    <children>
+        <AnchorPane layoutY="3.0" prefHeight="398.0" prefWidth="561.0">
+            <children>
+            <Label layoutX="194.0" layoutY="14.0" text="NHẬN BỆNH" textAlignment="CENTER" textFill="#111111">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="18.0" layoutY="78.0" text="Thông tin bệnh nhân">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="36.0" layoutY="120.0" text="Mã số bệnh nhân:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="86.0" layoutY="153.0" text="Số CMND:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="87.0" layoutY="187.0" text="Họ và tên:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="104.0" layoutY="233.0" text="Địa Chỉ:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField layoutX="177.0" layoutY="151.0" prefHeight="0.0" prefWidth="267.0" />
+            <TextField layoutX="177.0" layoutY="118.0" prefHeight="26.0" prefWidth="267.0" />
+            <TextField layoutX="177.0" layoutY="186.0" prefHeight="0.0" prefWidth="267.0" />
+            <TextArea layoutX="177.0" layoutY="223.0" prefHeight="97.0" prefWidth="267.0" />
+            <CheckBox layoutX="462.0" layoutY="118.0" mnemonicParsing="false" />
+            <CheckBox layoutX="462.0" layoutY="151.0" mnemonicParsing="false" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
